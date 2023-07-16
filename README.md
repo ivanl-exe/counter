@@ -2,13 +2,23 @@
 
 > 1... 2... 3...
 
-### List of contents:
-
-1. [Brief Introduction](#brief-introduction)
-2. [Installation](#installation)
-3. [Execution](#execution)
-4. [Flags](#flags)
-5. [Combinations](#combinations)
+- [Counter](#counter)
+  - [Brief Introductions](#brief-introductions)
+  - [Installation](#installation)
+    - [Powershell](#powershell)
+    - [Bourne shell](#bourne-shell)
+  - [Execution](#execution)
+    - [Windows](#windows)
+    - [Unix-like](#unix-like)
+  - [Flags](#flags)
+    - [Characters](#characters)
+    - [Words](#words)
+    - [Lines](#lines)
+    - [Files](#files)
+    - [Directories/folders](#directoriesfolders)
+  - [Combinations](#combinations)
+    - [Single-dash](#single-dash)
+    - [Double-dash](#double-dash)
 
 ## Brief Introductions
 A (simple) directory and (plaintext) file counter, written in Python, for counting:
@@ -23,7 +33,7 @@ If the given path is a **directory**/folder, the **all** nested files and direct
 ## Installation
 ---
 
-For execution python`>=3` needs to be installed, with the [standard library](https://docs.python.org/3/library/), with the additional packages found in `requirements.txt`. These can be installed using `pip` `install` with the `-r` flag - or simply by executing either:
+For execution python`>=3` needs to be installed, with the [standard library](https://docs.python.org/3/library/), with the additional packages found in [requirements.txt](src/requirements.txt). These can be installed using `pip` `install` with the `-r` flag - or simply by executing either:
 
 ### Powershell
 
