@@ -1,0 +1,36 @@
+c = [
+    "char",
+    "chars",
+    "character",
+    "characters"
+]
+w = [
+    "term",
+    "terms",
+    "word",
+    "words"
+]
+l = [
+    "line",
+    "lines",
+    "newline",
+    "newlines"
+]
+f = [
+    "doc",
+    "docs",
+    "document",
+    "documents",
+    "file",
+    "files"
+]
+d = [
+    "dir",
+    "dirs",
+    "directory",
+    "directories",
+    "folder",
+    "folders",
+    "album",
+    "albums"
+]
