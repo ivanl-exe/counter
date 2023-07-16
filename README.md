@@ -20,7 +20,7 @@ A (simple) directory and (plaintext) file counter, written in Python, for counti
 
 If the given path is a **directory**/folder, the **all** nested files and directories will also be included, until each possible edge (directory) has met an endpoint with no further directories within
 
-##Installation
+## Installation
 ---
 
 For execution python`>=3` needs to be installed, with the [standard library](https://docs.python.org/3/library/), with the additional packages found in `requirements.txt`. These can be installed using `pip` `install` with the `-r` flag - or simply by executing either:
